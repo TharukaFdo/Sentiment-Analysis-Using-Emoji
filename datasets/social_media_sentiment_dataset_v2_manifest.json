@@ -1,0 +1,63 @@
+{
+  "dataset_name": "social_media_sentiment_dataset_v2",
+  "seed_file": "social_media_sentiment_test.csv",
+  "output_csv": "datasets\\social_media_sentiment_dataset_v2.csv",
+  "random_seed": 42,
+  "target_total_rows": 24000,
+  "class_targets": {
+    "Positive": 8000,
+    "Neutral": 8000,
+    "Negative": 8000
+  },
+  "label_policy": {
+    "main_labels": [
+      "Negative",
+      "Neutral",
+      "Positive"
+    ],
+    "sarcastic_mapping": {
+      "seed_label": "Sarcastic",
+      "mapped_sentiment": "Negative",
+      "sarcasm_flag": 1,
+      "reason": "Sarcastic rows are kept in the three-class sentiment scheme by assigning the underlying negative intent to the main label while preserving sarcasm as metadata."
+    }
+  },
+  "generation_signal_reasoning": {
+    "real_observation": "Untouched rows from the real social-media seed set. These rows anchor the dataset in observed slang, emoji use, and sentiment patterns.",
+    "lexical_swap": "Keeps the sentiment class fixed while swapping to another real seed descriptor from the same polarity family, reducing dependence on one exact wording.",
+    "orthographic_noise": "Injects repeated letters and small typos because the real seed data uses noisy spellings typical of short social posts.",
+    "mixed_resolution": "Creates harder examples where early text is mild or ambiguous but the final clause resolves the sentiment, closer to how people post quick updates online.",
+    "hedged_neutral": "Builds low-affect neutral rows with hedges such as 'just' and 'kinda' so neutral is not merely a weak version of positive.",
+    "balanced_neutral": "Creates explicitly mixed low-intensity sentiment such as 'not bad not great', which is realistic for neutral reactions.",
+    "sarcasm_negative": "Uses positive surface phrases with dismissive emoji and negative pragmatic meaning. The dataset keeps the main label as Negative and tracks sarcasm separately."
+  },
+  "class_counts": {
+    "Neutral": 8000,
+    "Positive": 8000,
+    "Negative": 8000
+  },
+  "source_type_counts": {
+    "real_seed": 2000,
+    "controlled_augmentation": 22000
+  },
+  "generation_signal_counts": {
+    "real_observation": 2000,
+    "lexical_swap": 6364,
+    "orthographic_noise": 7147,
+    "mixed_resolution": 4120,
+    "balanced_neutral": 782,
+    "hedged_neutral": 1607,
+    "sarcasm_negative": 1980
+  },
+  "sarcasm_breakdown": {
+    "negative_sarcastic_rows": 2500,
+    "negative_plain_rows": 5500
+  },
+  "split_counts": {
+    "test": 3476,
+    "train": 16738,
+    "validation": 3786
+  },
+  "hard_case_rows": 9009,
+  "unique_comments": 24000
+}

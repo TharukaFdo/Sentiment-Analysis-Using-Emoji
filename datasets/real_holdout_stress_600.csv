@@ -1,0 +1,601 @@
+﻿stress_id,source_seed_id,original_text,stress_text,label,original_label,sarcasm_flag,stress_type,edit_reason
+stress_0001,seed_00012,besttt ever 🙄 totally helpfulllll,besttt ever totally helpfulllll,Negative,Sarcastic,1,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0002,seed_00013,best everrr 😒 totallyyyyy hlepfulll,best everrr totallyyyyy hlepfulll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0003,seed_00014,wow amazinggg 😏 totally helpful,wow amazinggg totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0004,seed_00020,lol this is awful 😡,lol this is awful 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0005,seed_00022,ngl this is worst 💔,ngl this is worst 🙃,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0006,seed_00031,loveee that for me 😏 totally helpful,loveee that for me totally helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0007,seed_00035,omg thisssss is terrible 😤,omg thisssss is terrible ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0008,seed_00039,justttt perfect 🙃 totallyyy helpful,justttt perfect totallyyy helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0009,seed_00043,great job 👏 totally helpful,great job totally helpful 🙏,Negative,Sarcastic,1,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0010,seed_00044,great job 😂 totallyyyy helpful,great job totallyyyy helpful,Negative,Sarcastic,1,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0011,seed_00046,just perfect 😏 ttoallyyyyy helpfullll,just perfect ttoallyyyyy helpfullll 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0012,seed_00057,just perfcet 😏 totallyyy helpful,just perfcet totallyyy helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0013,seed_00058,highkeyyyy thisss is pathetic 😭,highkeyyyy thisss is pathetic 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0014,seed_00059,great job 🙄 totallyyyy hlepful,great job totallyyyy hlepful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0015,seed_00068,fr this is trashhh 💔,fr this is trashhh 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0016,seed_00077,highkeyyyyy this is pathetic 😒,highkeyyyyy this is pathetic 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0017,seed_00095,ngl thsissss is pathetic 😞,ngl thsissss is pathetic,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0018,seed_00101,love that for me 🙃 totallyyyyy helpfulllll,love that for me totallyyyyy helpfulllll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0019,seed_00102,idk this is awfullll 😡,idk this is awfullll 🙃,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0020,seed_00104,rgeat job 😂 totally helpful,rgeat job totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0021,seed_00116,best ever 😒 totally helpful,best ever totally helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0022,seed_00117,bro this is pathetic 😒,bro this is pathetic ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0023,seed_00125,love that for me 😒 totally helpful,love that for me totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0024,seed_00133,fr this is bad 😞,fr this is bad 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0025,seed_00137,wow maazing 😂 totally helpful,wow maazing totally helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0026,seed_00143,idk this is treribleeeee 😡,idk this is treribleeeee 😐,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0027,seed_00148,idk thisssss is terrible 😭,idk thisssss is terrible ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0028,seed_00149,lol this is trashhhh 💔,lol this is trashhhh 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0029,seed_00158,ngl thissss is terrible 👎,ngl thissss is terrible 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0030,seed_00161,highkey this is bad 😤,highkey this is bad ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0031,seed_00166,bro htisss is worsttt 😒,bro htisss is worsttt 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0032,seed_00173,lol this is annoying 😤,lol this is annoying 😐,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0033,seed_00182,great job 😏 totallyyyy helpful,great job totallyyyy helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0034,seed_00193,lol this is pathetic 😠,lol this is pathetic 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0035,seed_00206,wow amazing 👏 totally ehlpful,wow amazing totally ehlpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0036,seed_00218,highkey this is trash 😡,highkey this is trash 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0037,seed_00227,bro thisssss is trash 😭,bro thisssss is trash ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0038,seed_00234,omg this is annoying 😡,omg this is annoying 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0039,seed_00235,bestttt everrrr 🙃 totally helpful,bestttt everrrr totally helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0040,seed_00246,great job 😏 totallyyy helpfulll,great job totallyyy helpfulll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0041,seed_00259,justttt perfect 👏 totally helpful,justttt perfect totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0042,seed_00267,highkeyyyyy this is awful 😡,highkeyyyyy this is awful 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0043,seed_00272,fr thisss is patheticccc 💔,fr thisss is patheticccc 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0044,seed_00284,love that for me 😒 ttoally helpfulllll,love that for me ttoally helpfulllll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0045,seed_00288,yeah sureeeee 😏 totally helpful,yeah sureeeee totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0046,seed_00295,omg this is trash 😒,omg this is trash ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0047,seed_00303,best everrrrr 🙃 totally helpful,best everrrrr totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0048,seed_00305,wow amazing 😒 totally helpful,wow amazing totally helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0049,seed_00315,omg this is annoying 😠,omg this is annoying 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0050,seed_00319,love thatttt for me 😒 totally helfpul,love thatttt for me totally helfpul 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0051,seed_00327,just perfect 😂 totally helpful,just perfect totally helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0052,seed_00339,ngl this is annoying 😞,ngl this is annoying,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0053,seed_00343,yaehhh sureeeee 🙃 totally helpful,yaehhh sureeeee totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0054,seed_00359,tbh this is awful 💔,tbh this is awful 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0055,seed_00360,lwokey this is bad 😞,lwokey this is bad 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0056,seed_00362,justttt perfecttt 😒 totalylyyyy helpful,justttt perfecttt totalylyyyy helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0057,seed_00371,loweky this is trashhhh 😠,loweky this is trashhhh 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0058,seed_00383,omg this is bad 😤,omg this is bad 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0059,seed_00385,just perfect 😒 totallyyy ehlpfulllll,just perfect totallyyy ehlpfulllll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0060,seed_00391,bro this is pathetic 👎,bro this is pathetic ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0061,seed_00394,fr thsiss is worst 😞,fr thsiss is worst 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0062,seed_00406,yeahhh sure 😏 totally helpful,yeahhh sure totally helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0063,seed_00407,highkey this is worst 💔,highkey this is worst 😐,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0064,seed_00413,loveee thatttt for me 🙃 totally helpful,loveee thatttt for me totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0065,seed_00418,lowkey this is bad 😭,lowkey this is bad ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0066,seed_00421,yeahhhh sure 😂 totallyyy helpfulll,yeahhhh sure totallyyy helpfulll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0067,seed_00427,lol thisssss is worstttt 😤,lol thisssss is worstttt 😐,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0068,seed_00430,highekyyyyy this is terribleeeee 👎,highekyyyyy this is terribleeeee ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0069,seed_00436,tbh this is pathteiccc 💔,tbh this is pathteiccc 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0070,seed_00439,love thattttt for me 😒 totallyyy heplfulll,love thattttt for me totallyyy heplfulll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0071,seed_00007,ngl it was reuglar 😐,ngl it was reuglar,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0072,seed_00016,bro it was normal 😐,bro it was normal 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0073,seed_00019,bro it was okay 🙂,bro it was okay 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0074,seed_00024,lowkey it was okay 🫤,lowkey it was okay,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0075,seed_00026,bro it was standarddd 🤷,bro it was standarddd 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0076,seed_00086,tbh it was regular 🫤,tbh it was regular 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0077,seed_00090,lol it was normal 😐,lol it was normal,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0078,seed_00105,ngl it was fine 🫤,ngl it was fine 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0079,seed_00113,idk it was regular 🤷,idk it was regular 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0080,seed_00119,idk it was fine 😐,idk it was fine,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0081,seed_00121,bro it was fine 🫤,bro it was fine 🙂,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0082,seed_00144,idk it was regularrrr 😐,idk it was regularrrr 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0083,seed_00170,lol it was average 🤷,lol it was average,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0084,seed_00216,lol it was averageeeee 🤷,lol it was averageeeee 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0085,seed_00222,omg it was okay 🫤,omg it was okay 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0086,seed_00236,ngl it was averageeeee 🤷,ngl it was averageeeee,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0087,seed_00256,bro it was standard 😐,bro it was standard 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0088,seed_00258,lol it was standard 🫤,lol it was standard 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0089,seed_00260,ngl it was fine 🙂,ngl it was fine,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0090,seed_00270,lowkeyyy it was regular 🙂,lowkeyyy it was regular 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0091,seed_00287,bro it was reuglar 🙂,bro it was reuglar 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0092,seed_00296,idk it was standard 😐,idk it was standard,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0093,seed_00302,omg it was okayyy 🙂,omg it was okayyy 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0094,seed_00312,ngl it was okayyyy 🤷,ngl it was okayyyy 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0095,seed_00347,fr it was fineeeee 🤷,fr it was fineeeee,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0096,seed_00358,lol it was normallll 😐,lol it was normallll 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0097,seed_00370,highkey it was average 🫤,highkey it was average 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0098,seed_00405,idk it was okay 🤷,idk it was okay,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0099,seed_00415,bro it was onrmal 🙂,bro it was onrmal 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0100,seed_00420,fr it was okay 🙂,fr it was okay 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0101,seed_00428,lowkeyyyyy it was averageeee 🫤,lowkeyyyyy it was averageeee,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0102,seed_00443,idk it was okay 🙂,idk it was okay 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0103,seed_00445,idk it was average 😐,idk it was average 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0104,seed_00485,ngl it was normal 🤷,ngl it was normal,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0105,seed_00494,fr it was standard 😐,fr it was standard 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0106,seed_00522,ngl it was regularrrr 🫤,ngl it was regularrrr 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0107,seed_00527,bro it was average 🤷,bro it was average,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0108,seed_00528,lol it was regular 🫤,lol it was regular 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0109,seed_00538,ngl it was normal 😐,ngl it was normal 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0110,seed_00560,fr it was fine 🙂,fr it was fine,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0111,seed_00581,omg it was averageeeee 😐,omg it was averageeeee 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0112,seed_00625,fr it was normal 🤷,fr it was normal 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0113,seed_00641,lowkey it was okay 🤷,lowkey it was okay,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0114,seed_00647,highkey it was standard 😐,highkey it was standard 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0115,seed_00670,idk it was fine 🤷,idk it was fine 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0116,seed_00681,ngl it was standard 🤷,ngl it was standard,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0117,seed_00684,ngl it was normalll 😐,ngl it was normalll 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0118,seed_00696,tbh it was standard 😐,tbh it was standard 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0119,seed_00698,lol it was okay 😐,lol it was okay,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0120,seed_00705,lol it was standard 🙂,lol it was standard 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0121,seed_00722,ngl it was regular 😐,ngl it was regular 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0122,seed_00734,lowkey it was okay 😐,lowkey it was okay,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0123,seed_00735,highkey it was regular 🙂,highkey it was regular 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0124,seed_00742,tbh it was okayyy 🤷,tbh it was okayyy 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0125,seed_00755,tbh it was okayyy 😐,tbh it was okayyy,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0126,seed_00765,lowkeyyyyy it was fine 😐,lowkeyyyyy it was fine 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0127,seed_00789,bro it was fine 🤷,bro it was fine 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0128,seed_00817,idk it was normal 😐,idk it was normal,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0129,seed_00861,highkey it was okay 🫤,highkey it was okay 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0130,seed_00877,tbh it was average 🤷,tbh it was average 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0131,seed_00879,idk it was averageeee 😐,idk it was averageeee,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0132,seed_00912,idk it was average 🙂,idk it was average 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0133,seed_00914,idk it was onrmal 🙂,idk it was onrmal 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0134,seed_00958,ihghkey it was fine 🙂,ihghkey it was fine,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0135,seed_00977,tbh it was okay 🤷,tbh it was okay 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0136,seed_00005,highkey this is lit ✨,highkey this is lit,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0137,seed_00037,ngl this is solid 😄,ngl this is solid 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0138,seed_00047,omg thissss is awesomeeeee 😄,omg thissss is awesomeeeee 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0139,seed_00053,omg this is awseome 🥳,omg this is awseome 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0140,seed_00054,bro this is awesomeeee 😄,bro this is awesomeeee,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0141,seed_00063,bro this is eprfectttt 😄,bro this is eprfectttt 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0142,seed_00080,fr this is gerat 🔥,fr this is gerat 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0143,seed_00088,idk this is amazing 🔥,idk this is amazing 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0144,seed_00091,omg this is lit ✨,omg this is lit 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0145,seed_00098,fr thisssss is awesomeeee 😄,fr thisssss is awesomeeee,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0146,seed_00115,omg this is fantasticcc 😄,omg this is fantasticcc 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0147,seed_00129,omg this is great 🥳,omg this is great 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0148,seed_00153,highkey this is awesome 😍,highkey this is awesome 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0149,seed_00163,bro this is solid 🥳,bro this is solid,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0150,seed_00174,highkey this is gerat 🥳,highkey this is gerat 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0151,seed_00187,highkey this is perfecttt 🔥,highkey this is perfecttt 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0152,seed_00188,ngl this is greattt ✨,ngl this is greattt 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0153,seed_00202,fr this is lit 🔥,fr this is lit,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0154,seed_00212,fr this is soliddd 😄,fr this is soliddd 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0155,seed_00229,bro thisssss is lit 😁,bro thisssss is lit 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0156,seed_00237,omg this is solid ✨,omg this is solid 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0157,seed_00264,tbh this is fantastic ❤️,tbh this is fantastic,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0158,seed_00276,tbh this is perfect 🤩,tbh this is perfect 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0159,seed_00277,ngl thisss is solid 🥳,ngl thisss is solid 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0160,seed_00278,ngl thissss is lit 😍,ngl thissss is lit 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0161,seed_00294,bro this is great ✨,bro this is great,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0162,seed_00307,lwokey thissss is soliddd ✨,lwokey thissss is soliddd 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0163,seed_00310,bro thisssss is awesome 🔥,bro thisssss is awesome 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0164,seed_00313,bro this is solidddd ❤️,bro this is solidddd 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0165,seed_00317,fr this is lit 🤩,fr this is lit,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0166,seed_00326,fr thissss is lit 😄,fr thissss is lit 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0167,seed_00367,ngl this is amazinggg 🔥,ngl this is amazinggg 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0168,seed_00368,tbh this is greatttt 🔥,tbh this is greatttt 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0169,seed_00376,tbh this is great 😄,tbh this is great,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0170,seed_00378,lol thisssss is perfecttttt 😁,lol thisssss is perfecttttt 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0171,seed_00397,ngl this is fantastic 🤩,ngl this is fantastic 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0172,seed_00399,fr this is eprfect 🥳,fr this is eprfect 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0173,seed_00403,bro thisss is amazing 😄,bro thisss is amazing,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0174,seed_00409,omg this is awesomeee 😁,omg this is awesomeee 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0175,seed_00424,bro thisssss is fantastic ✨,bro thisssss is fantastic 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0176,seed_00441,idk this is lit ❤️,idk this is lit 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0177,seed_00452,tbh this is awesome ✨,tbh this is awesome,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0178,seed_00454,idk this is perfecttttt 😍,idk this is perfecttttt 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0179,seed_00468,lol this is great ✨,lol this is great 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0180,seed_00473,omg thisssss is fantastic 🥳,omg thisssss is fantastic 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0181,seed_00514,fr this is great 🔥,fr this is great,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0182,seed_00534,lol this is greattt 😄,lol this is greattt 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0183,seed_00536,ngl thisssss is awesome 🥳,ngl thisssss is awesome 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0184,seed_00539,tbh this is perfect 😁,tbh this is perfect 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0185,seed_00552,ngl this is awesomeeeee 😍,ngl this is awesomeeeee,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0186,seed_00567,ngl thisss is pefrect 🤩,ngl thisss is pefrect 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0187,seed_00584,ngl this is solid 🔥,ngl this is solid 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0188,seed_00618,highkey this is fantastic 🔥,highkey this is fantastic 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0189,seed_00636,idk this is amazing 😍,idk this is amazing,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0190,seed_00637,lowkey thisssss is lit 😄,lowkey thisssss is lit 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0191,seed_00642,tbh this is fantasticccc 😁,tbh this is fantasticccc 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0192,seed_00653,lol this is awesome 😄,lol this is awesome 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0193,seed_00660,highkey thisss is fantasticcc ✨,highkey thisss is fantasticcc,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0194,seed_00668,omg thisss is lit 😍,omg thisss is lit 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0195,seed_00700,tbh thisss is awesomeeeee 🥳,tbh thisss is awesomeeeee 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0196,seed_00702,olwkeyyyy this is amazing 😄,olwkeyyyy this is amazing 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0197,seed_00704,lowkeyyyy thissss is perfect ❤️,lowkeyyyy thissss is perfect,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0198,seed_00709,tbh this is awesome 😁,tbh this is awesome 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0199,seed_00730,lowkey this is awesome ✨,lowkey this is awesome 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0200,seed_00745,lol this is fantastic 🤩,lol this is fantastic 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0201,seed_00440,wow amazing 🙃 totally helfpullll,wow amazing totally helfpullll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0202,seed_00446,idk this is annoiyng 💔,idk this is annoiyng 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0203,seed_00456,best ever 🙃 ttoallyyyyy helpful,best ever ttoallyyyyy helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0204,seed_00457,yeah sure 🙃 totallyyyyy helpful,yeah sure totallyyyyy helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0205,seed_00460,justtt perfecttttt 👏 totally helpful,justtt perfecttttt totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0206,seed_00469,greattttt job 🙃 totally helpful,greattttt job totally helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0207,seed_00477,besttttt everrr 👏 totally helpfulll,besttttt everrr totally helpfulll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0208,seed_00480,highkey thisss is annoying 😤,highkey thisss is annoying ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0209,seed_00486,ngl tihsssss is bad 😒,ngl tihsssss is bad 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0210,seed_00504,lowkey this is trashhhh 😠,lowkey this is trashhhh 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0211,seed_00506,best ever 😏 totlaly helpful,best ever totlaly helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0212,seed_00508,ngl this is annoying 💔,ngl this is annoying,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0213,seed_00521,ngl this is trashhh 💔,ngl this is trashhh 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0214,seed_00523,best ever 😂 toatlly helpfulll,best ever toatlly helpfulll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0215,seed_00525,bro this is worst 😞,bro this is worst ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0216,seed_00529,wow amazing 🙃 totallyyyy helpful,wow amazing totallyyyy helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0217,seed_00530,lwokey this is awful 😭,lwokey this is awful 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0218,seed_00541,loveeeee that for me 😒 ttoally helpfulll,loveeeee that for me ttoally helpfulll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0219,seed_00544,just perfect 😂 totlaly helfpulll,just perfect totlaly helfpulll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0220,seed_00545,lowkeyyy this is worst 😤,lowkeyyy this is worst 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0221,seed_00546,great job 😏 totalyl helpful,great job totalyl helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0222,seed_00556,lol this is trash 😞,lol this is trash,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0223,seed_00558,best ever 😒 totally helpfulllll,best ever totally helpfulllll 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0224,seed_00568,justtttt perfect 👏 ttoally helpfullll,justtttt perfect ttoally helpfullll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0225,seed_00570,omg this is awfulllll 😠,omg this is awfulllll ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0226,seed_00574,highkey thisssss is trashhhhh 😡,highkey thisssss is trashhhhh 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0227,seed_00576,besttttt ever 😏 totally helpful,besttttt ever totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0228,seed_00579,best ever 🙄 totallyyyyy helpful,best ever totallyyyyy helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0229,seed_00597,wow amazing 😂 totally helpfullll,wow amazing totally helpfullll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0230,seed_00603,highkeyyyy this is annoying 👎,highkeyyyy this is annoying 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0231,seed_00614,tbh thisss is annoying 😞,tbh thisss is annoying 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0232,seed_00617,loveee thattttt for me 🙄 totallyyy helpful,loveee thattttt for me totallyyy helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0233,seed_00640,idk this is trahs 😒,idk this is trahs ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0234,seed_00649,best ever 🙄 ottally ehlpful,best ever ottally ehlpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0235,seed_00657,lol this is terribleee 😤,lol this is terribleee 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0236,seed_00658,highkye thisssss is worsttttt 😞,highkye thisssss is worsttttt,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0237,seed_00680,lowkeyyyy this is terrible 😭,lowkeyyyy this is terrible ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0238,seed_00682,omg this is bad 😒,omg this is bad 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0239,seed_00683,yeah sure 😂 ttoallyyy helpful,yeah sure ttoallyyy helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0240,seed_00687,fr thisssss is pathetic 👎,fr thisssss is pathetic 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0241,seed_00699,idk thisss is awful 💔,idk thisss is awful 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0242,seed_00703,just perfect 😏 totally helpful,just perfect totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0243,seed_00710,yeahhh sure 🙃 totally helpfullll,yeahhh sure totally helpfullll 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0244,seed_00712,wow amazing 😂 ottallyyy helpfullll,wow amazing ottallyyy helpfullll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0245,seed_00719,besttttt everrr 🙃 totallyyyy helpful,besttttt everrr totallyyyy helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0246,seed_00721,just perfect 🙄 totally helpful,just perfect totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0247,seed_00726,lowkeyyyyy this is terrible 😡,lowkeyyyyy this is terrible ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0248,seed_00731,idk thissss is annoyinggg 😠,idk thissss is annoyinggg 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0249,seed_00737,yeahhhhh sure 🙃 totally helpful,yeahhhhh sure totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0250,seed_00738,wow amzaing 😒 totally helpuflll,wow amzaing totally helpuflll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0251,seed_00746,fr this is annoying 👎,fr this is annoying 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0252,seed_00752,just perfecttt 😏 totallyyyyy helpful,just perfecttt totallyyyyy helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0253,seed_00756,lowkey thissss is annoyinggg 💔,lowkey thissss is annoyinggg 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0254,seed_00780,fr thisssss is terrible 😒,fr thisssss is terrible ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0255,seed_00781,lowkey thissss is worst 😠,lowkey thissss is worst 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0256,seed_00788,ngl this is awfullll 😞,ngl this is awfullll,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0257,seed_00794,bro thisss is patheticcc 😭,bro thisss is patheticcc ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0258,seed_00798,just perfcet 😏 totally helpflu,just perfcet totally helpflu 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0259,seed_00803,yeahhhh sure 👏 totally hlepfullll,yeahhhh sure totally hlepfullll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0260,seed_00805,ngl this is annoyinggg 😭,ngl this is annoyinggg 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0261,seed_00820,just perfetc 😒 totally helpful,just perfetc totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0262,seed_00821,idk this is pathetic 😒,idk this is pathetic 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0263,seed_00824,omg thisssss is awful 😤,omg thisssss is awful 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0264,seed_00825,great job 😏 totally helpfullll,great job totally helpfullll 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0265,seed_00830,highkeyyy thissss is terrible 😞,highkeyyy thissss is terrible ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0266,seed_00847,bestttt everrr 🙃 totalyl helpful,bestttt everrr totalyl helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0267,seed_00851,wow amazniggggg 😒 totally helpfulllll,wow amazniggggg totally helpfulllll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0268,seed_00852,yeah sureeeee 🙃 totally helpfulll,yeah sureeeee totally helpfulll 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0269,seed_00855,tbh thisssss is bad 😠,tbh thisssss is bad 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0270,seed_00858,idk this is annoying 😞,idk this is annoying 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0271,seed_00885,tbh thissss is awufl 😡,tbh thissss is awufl,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0272,seed_00886,omg this is annoying 💔,omg this is annoying 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0273,seed_00898,bro this is annoyinggg 😞,bro this is annoyinggg ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0274,seed_00900,idk this is annoying 😡,idk this is annoying 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0275,seed_00903,fr thissss is annyoing 😠,fr thissss is annyoing 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0276,seed_00923,omg this is trashhhhh 😡,omg this is trashhhhh 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0277,seed_00928,wow amazing 😏 totally helpfullll,wow amazing totally helpfullll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0278,seed_00930,lowkeyyy thissss is trash 😤,lowkeyyy thissss is trash ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0279,seed_00934,just prefect 🙃 totally helpfulll,just prefect totally helpfulll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0280,seed_00938,bro this is annoying 😠,bro this is annoying 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0281,seed_00945,loveeee that for me 🙃 totally helpful,loveeee that for me totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0282,seed_00947,yeah sure 😒 totally helfpul,yeah sure totally helfpul 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0283,seed_00955,just perfectttt 🙃 totally helpful,just perfectttt totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0284,seed_00965,yeahhh sure 🙄 totallyyy helpful,yeahhh sure totallyyy helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0285,seed_00970,omg this is worst 😡,omg this is worst ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0286,seed_00973,wow amazing 👏 totally helpful,wow amazing totally helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0287,seed_00975,bestttt everrrr 🙄 totally helpful,bestttt everrrr totally helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0288,seed_00982,just perefct 🙃 totally helpful,just perefct totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0289,seed_00983,besttt veerrr 😏 totally helpful,besttt veerrr totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0290,seed_00985,idk this is patheticcccc 💔,idk this is patheticcccc,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0291,seed_00986,highkeyyyyy thisssss is awfullll 😞,highkeyyyyy thisssss is awfullll 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0292,seed_00989,wow amazinggg 🙄 totally helpful,wow amazinggg totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0293,seed_00992,bsetttt ever 🙃 totallyyy helfpul,bsetttt ever totallyyy helfpul 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0294,seed_00998,tbh this is patheticcc 😠,tbh this is patheticcc ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0295,seed_01003,best ever 😏 totally helpfullll,best ever totally helpfullll 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0296,seed_01005,omg this is trash 👎,omg this is trash 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0297,seed_01044,just perfect 🙄 totallyyyy helpful,just perfect totallyyyy helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0298,seed_01045,bro thisssss is awfulll 😤,bro thisssss is awfulll 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0299,seed_01058,yeah sure 😏 totallyyyy helpfulllll,yeah sure totallyyyy helpfulllll 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0300,seed_01059,justtt perfecttt 😂 totalyl helpful,justtt perfecttt totalyl helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0301,seed_01065,lowkey this is worst 💔,lowkey this is worst ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0302,seed_01070,bro thissss is awful 😠,bro thissss is awful 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0303,seed_01071,best ever 😂 totallyyyy helpfullll,best ever totallyyyy helpfullll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0304,seed_01077,fr this is nanoying 💔,fr this is nanoying 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0305,seed_01081,wow amazing 😂 totallyyyy helfpul,wow amazing totallyyyy helfpul 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0306,seed_01092,wow amazingggg 😏 totally hlepful,wow amazingggg totally hlepful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0307,seed_01097,just perfetc 😏 totally helpful,just perfetc totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0308,seed_01098,lol this is awful 💔,lol this is awful,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0309,seed_01107,wow amaizng 🙄 totally helpfullll,wow amaizng totally helpfullll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0310,seed_01113,ngl thissss is annoyinggg 😞,ngl thissss is annoyinggg 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0311,seed_01118,yeah sure 😂 totally helpful,yeah sure totally helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0312,seed_01119,omg thisssss is bad 💔,omg thisssss is bad 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0313,seed_01123,just perfect 👏 totally helpfulll,just perfect totally helpfulll 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0314,seed_01139,loveeeee thattt for me 😂 totallyyyyy helpfulllll,loveeeee thattt for me totallyyyyy helpfulllll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0315,seed_01141,bro this is worsttt 😡,bro this is worsttt ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0316,seed_01155,fr this is worst 😞,fr this is worst 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0317,seed_01157,idk this is trash 😠,idk this is trash 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0318,seed_01158,lowkeyyyy thisssss is pathteic 😤,lowkeyyyy thisssss is pathteic 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0319,seed_01159,idk this is trsah 👎,idk this is trsah ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0320,seed_01161,love thatttt for me 🙃 totally helpfulll,love thatttt for me totally helpfulll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0321,seed_01179,best ever 🙄 totally helpful,best ever totally helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0322,seed_01198,best everrrr 👏 totallyyyy helpful,best everrrr totallyyyy helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0323,seed_01219,fr this is bad 😠,fr this is bad,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0324,seed_01220,bro thisssss is bad 😠,bro thisssss is bad ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0325,seed_01228,idk thissss is pathetic 💔,idk thissss is pathetic 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0326,seed_01230,yeah sueree 👏 totally helpful,yeah sueree totally helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0327,seed_01232,greattttt job 🙄 totallyyyyy ehlpfullll,greattttt job totallyyyyy ehlpfullll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0328,seed_01236,lol this is tarshhh 😞,lol this is tarshhh 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0329,seed_01255,ngl thisss is annoying 😒,ngl thisss is annoying ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0330,seed_01264,just perfetc 👏 totallyyyy helpful,just perfetc totallyyyy helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0331,seed_01266,ngl this is pathetic 😠,ngl this is pathetic 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0332,seed_01274,just perfecttt 😏 totally helpfulllll,just perfecttt totally helpfulllll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0333,seed_01276,wow aamzing 🙃 totally helpful,wow aamzing totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0334,seed_01278,ujsttt perfect 🙃 totallyyy helpful,ujsttt perfect totallyyy helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0335,seed_01312,bestttt ever 😂 totally helpful,bestttt ever totally helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0336,seed_01328,justtttt perfect 🙄 totally helpful,justtttt perfect totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0337,seed_01345,omg this is terrible 💔,omg this is terrible ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0338,seed_01349,omg this is awflu 💔,omg this is awflu 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0339,seed_01360,lol this is awfullll 😤,lol this is awfullll,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0340,seed_01362,highkey tihssss is worst 😒,highkey tihssss is worst 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0341,seed_01369,fr this is rtashhhh 👎,fr this is rtashhhh 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0342,seed_01370,lowkeyyyy this is annoying 😡,lowkeyyyy this is annoying 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0343,seed_00988,highkey it was fine 🤷,highkey it was fine,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0344,seed_01019,highkey it was average 😐,highkey it was average 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0345,seed_01032,idk it was normal 🤷,idk it was normal 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0346,seed_01052,idk it was fineee 🤷,idk it was fineee,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0347,seed_01054,idk it was ergularrrr 🤷,idk it was ergularrrr 😐,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0348,seed_01073,highkeyyy it was avreageeeee 🫤,highkeyyy it was avreageeeee 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0349,seed_01082,idk it was standarddd 🫤,idk it was standarddd,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0350,seed_01086,ngl it was vaerage 😐,ngl it was vaerage 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0351,seed_01099,idk it was fine 🙂,idk it was fine 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0352,seed_01111,fr it was average 🙂,fr it was average,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0353,seed_01130,fr it was averageee 😐,fr it was averageee 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0354,seed_01131,highkey it was fine 😐,highkey it was fine 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0355,seed_01136,tbh it was standard 🤷,tbh it was standard,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0356,seed_01163,bro it was nromal 😐,bro it was nromal 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0357,seed_01167,lowkeyyyy it was regular 😐,lowkeyyyy it was regular 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0358,seed_01173,fr it was regularrrr 🤷,fr it was regularrrr,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0359,seed_00748,loweky thisss is solid ❤️,loweky thisss is solid,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0360,seed_00754,fr this is awesome ❤️,fr this is awesome 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0361,seed_00783,fr this is lit 😄,fr this is lit 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0362,seed_00809,ngl this is rgeat 😁,ngl this is rgeat 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0363,seed_00818,highkey this is greattt 😍,highkey this is greattt,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0364,seed_00841,tbh this is perfect 😄,tbh this is perfect 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0365,seed_00845,fr thisssss is fantastic 🤩,fr thisssss is fantastic 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0366,seed_00862,bro this is lit 🥳,bro this is lit 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0367,seed_00891,bro this is fatnastic ❤️,bro this is fatnastic,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0368,seed_00892,ngl thissss is lit ✨,ngl thissss is lit 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0369,seed_00899,tbh this is soild 😍,tbh this is soild 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0370,seed_00916,ngl this is lit ❤️,ngl this is lit 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0371,seed_00924,omg thisssss is awesoem ✨,omg thisssss is awesoem,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0372,seed_00925,idk this is amazinggggg 😍,idk this is amazinggggg 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0373,seed_00971,omg this is lit 🔥,omg this is lit 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0374,seed_01008,fr thisss is awesome 🥳,fr thisss is awesome 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0375,seed_01025,idk thissss is soliddddd 🔥,idk thissss is soliddddd,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0376,seed_01050,bro this is solid 😍,bro this is solid 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0377,seed_01055,bro this is awesomeee 😁,bro this is awesomeee 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0378,seed_01069,bro thisss is lit 😍,bro thisss is lit 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0379,seed_01074,omg thissss is soild 😁,omg thissss is soild,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0380,seed_01075,idk thisss is fantastic 😁,idk thisss is fantastic 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0381,seed_01076,tbh this is graettt 😁,tbh this is graettt 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0382,seed_01079,fr thissss is awesome 🥳,fr thissss is awesome 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0383,seed_01114,highkey this is perfect 😁,highkey this is perfect,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0384,seed_01115,ngl thisss is awesomeee ❤️,ngl thisss is awesomeee 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0385,seed_01117,ihghkey this is solid 🥳,ihghkey this is solid 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0386,seed_01126,lol this is perfect 🥳,lol this is perfect 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0387,seed_01127,highkey thisssss is great 😁,highkey thisssss is great,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0388,seed_01129,tbh thisssss is greattt 😄,tbh thisssss is greattt 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0389,seed_01140,lowkey this is graet 😍,lowkey this is graet 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0390,seed_01164,idk thisssss is fantastic 😄,idk thisssss is fantastic 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0391,seed_01183,omg thissss is perfectttt ❤️,omg thissss is perfectttt,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0392,seed_01197,lol thissss is amazing 😍,lol thissss is amazing 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0393,seed_01209,omg this is lit 🤩,omg this is lit 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0394,seed_01225,highkey this is solid 😄,highkey this is solid 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0395,seed_01235,ngl thissss is perfectttt 😍,ngl thissss is perfectttt,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0396,seed_01241,fr this is amazing 😄,fr this is amazing 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0397,seed_01242,fr this is soliddd 🤩,fr this is soliddd 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0398,seed_01245,highkey this is awesomeeeee ✨,highkey this is awesomeeeee 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0399,seed_01254,tbh this is solid 😄,tbh this is solid,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0400,seed_01323,idk this is solid 😍,idk this is solid 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0401,seed_01378,omg thissss is worst 😡,omg thissss is worst 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0402,seed_01381,omg this is wosrt 👎,omg this is wosrt ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0403,seed_01385,love thattt for me 🙃 totallyyyy helpful,love thattt for me totallyyyy helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0404,seed_01390,wow amazing 🙄 totally helpfullll,wow amazing totally helpfullll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0405,seed_01392,tbh this is waful 😞,tbh this is waful,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0406,seed_01393,lol this is pathetic 😭,lol this is pathetic 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0407,seed_01394,bro htissss is bad 😤,bro htissss is bad 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0408,seed_01396,wow amazing 😒 totally helpfulllll,wow amazing totally helpfulllll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0409,seed_01401,lowkey this is awful 😠,lowkey this is awful ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0410,seed_01407,highkey this is annyoing 😞,highkey this is annyoing 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0411,seed_01410,yeah sure 😏 totally helpfulllll,yeah sure totally helpfulllll 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0412,seed_01415,tbh this is patheticcc 😡,tbh this is patheticcc,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0413,seed_01427,highkeyyyy thisssss is awful 👎,highkeyyyy thisssss is awful 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0414,seed_01428,love thatttt for me 😏 totally heplful,love thatttt for me totally heplful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0415,seed_01432,highkey this is bad 😠,highkey this is bad 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0416,seed_01438,bro this is awfulllll 💔,bro this is awfulllll ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0417,seed_01450,lowkye this is pathetic 😤,lowkye this is pathetic 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0418,seed_01457,great job 😂 totally helpful,great job totally helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0419,seed_01458,omg this is worst 💔,omg this is worst,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0420,seed_01460,wow amazinggggg 😂 toatllyyyy hlepful,wow amazinggggg toatllyyyy hlepful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0421,seed_01461,lol this is annoyinggg 😒,lol this is annoyinggg ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0422,seed_01462,loveee that for me 🙄 totally heplfulll,loveee that for me totally heplfulll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0423,seed_01478,wow amazinggg 😂 totally helpful,wow amazinggg totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0424,seed_01498,highkey thisssss is nanoying 😭,highkey thisssss is nanoying 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0425,seed_01507,best ever 😂 totallyyyy ehlpful,best ever totallyyyy ehlpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0426,seed_01508,just perfect 🙄 totally heplful,just perfect totally heplful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0427,seed_01518,yeah sure 😏 totlaly helpful,yeah sure totlaly helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0428,seed_01524,tbh thisssss is annoyinggg 😤,tbh thisssss is annoyinggg,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0429,seed_01527,tbh this is pathetic 😠,tbh this is pathetic ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0430,seed_01533,yeah sure 👏 ttoallyyyyy helpful,yeah sure ttoallyyyyy helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0431,seed_01537,love that for me 👏 totally helfpul,love that for me totally helfpul 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0432,seed_01553,greta job 😂 totally helpful,greta job totally helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0433,seed_01561,yeahhhhh sureee 🙄 totally helpful,yeahhhhh sureee totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0434,seed_01576,omg thissss is trashhhhh 👎,omg thissss is trashhhhh 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0435,seed_01591,tbh this is awful 👎,tbh this is awful 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0436,seed_01604,best ever 🙃 ottally ehlpfullll,best ever ottally ehlpfullll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0437,seed_01609,great job 😒 totallyyy helpflu,great job totallyyy helpflu 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0438,seed_01612,ngl thissss is awful 💔,ngl thissss is awful,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0439,seed_01613,just perfecttt 🙃 totally helfpulll,just perfecttt totally helfpulll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0440,seed_01624,loveeee thattttt for me 😒 totallyyy helpful,loveeee thattttt for me totallyyy helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0441,seed_01625,greatttt job 😒 totally helpful,greatttt job totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0442,seed_01636,highkey thsissss is trashhhhh 😞,highkey thsissss is trashhhhh ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0443,seed_01639,bro thisss is trashhhhh 😡,bro thisss is trashhhhh 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0444,seed_01657,bro this is awfulllll 😞,bro this is awfulllll,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0445,seed_01658,omg thisss is awfullll 😠,omg thisss is awfullll 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0446,seed_01670,highkeyyy thisss is etrrible 😡,highkeyyy thisss is etrrible 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0447,seed_01673,great job 😏 toatlly helpful,great job toatlly helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0448,seed_01676,just perfect 😒 totally ehlpful,just perfect totally ehlpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0449,seed_01686,justtt perfect 👏 totally helpfulll,justtt perfect totally helpfulll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0450,seed_01691,wow amazing 😂 totlaly helpfullll,wow amazing totlaly helpfullll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0451,seed_01693,bro thisssss is annoying 😠,bro thisssss is annoying ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0452,seed_01704,loveeee that for me 👏 totally helpfulllll,loveeee that for me totally helpfulllll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0453,seed_01708,yeah sure 🙃 totally helpful,yeah sure totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0454,seed_01709,tbh this is terrible 😭,tbh this is terrible,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0455,seed_01711,wow aamzinggg 😂 totally helpful,wow aamzinggg totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0456,seed_01712,just perfect 😒 totally helpful,just perfect totally helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0457,seed_01720,yeah sure 🙄 totallyyyyy helpful,yeah sure totallyyyyy helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0458,seed_01738,fr this is bad 😭,fr this is bad 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0459,seed_01739,greattt job 😂 totallyyyyy helpfulllll,greattt job totallyyyyy helpfulllll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0460,seed_01743,lowkey this is wortstt 👎,lowkey this is wortstt 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0461,seed_01744,wow amazing 😏 totally helpful,wow amazing totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0462,seed_01754,omg this is anonying 😤,omg this is anonying,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0463,seed_01759,lowkyeyyy this is patheticcc 👎,lowkyeyyy this is patheticcc 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0464,seed_01765,wow amazingggg 😒 totallyyyy helpful,wow amazingggg totallyyyy helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0465,seed_01782,ngl tihsss is trahs 😭,ngl tihsss is trahs 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0466,seed_01786,lowkeyyyy thisss is trash 😡,lowkeyyyy thisss is trash ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0467,seed_01788,just perfect 🙃 totallyyyy helpful,just perfect totallyyyy helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0468,seed_01794,lowkey this is terribel 👎,lowkey this is terribel 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0469,seed_01798,graet job 😒 totally helpful,graet job totally helpful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0470,seed_01802,best ever 😂 totallyyy hlepful,best ever totallyyy hlepful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0471,seed_01815,highkey thisssss is trash 😞,highkey thisssss is trash,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0472,seed_01816,wow amaizng 😏 totallyyyy helpfulll,wow amaizng totallyyyy helpfulll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0473,seed_01826,bro thisssss is annoyinggg 😤,bro thisssss is annoyinggg 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0474,seed_01834,just perfect 🙄 totally helpfulll,just perfect totally helpfulll 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0475,seed_01839,omg this is trashhh 😠,omg this is trashhh 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0476,seed_01844,wow amazinggggg 😒 totalyl helpful,wow amazinggggg totalyl helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0477,seed_01862,idk thisssss is bad 😡,idk thisssss is bad 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0478,seed_01871,idk this is annoyinggggg 😡,idk this is annoyinggggg 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0479,seed_01873,wow amazign 😏 totally hlepful,wow amazign totally hlepful 🙂,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0480,seed_01877,wow amazinggggg 😂 totally helpful,wow amazinggggg totally helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0481,seed_01879,yeahhh sure 😒 totally helpfulllll,yeahhh sure totally helpfulllll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0482,seed_01891,tbh this is awful 😡,tbh this is awful,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0483,seed_01895,love that for me 🙄 toatllyyyy helpful,love that for me toatllyyyy helpful 🤔,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0484,seed_01902,just perfecttttt 😒 totally helpfulll,just perfecttttt totally helpfulll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0485,seed_01904,lol this is afwul 👎,lol this is afwul ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0486,seed_01906,ngl thisssss is terribleee 😠,ngl thisssss is terribleee 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0487,seed_01909,justtt eprfect 🙄 totally helpful,justtt eprfect totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0488,seed_01911,tbh thisss is bad 😞,tbh thisss is bad,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0489,seed_01916,just perfect 😂 totallyyyyy helpful,just perfect totallyyyyy helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0490,seed_01920,fr this is trash 😤,fr this is trash 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0491,seed_01927,greattttt job 😏 totally helpful,greattttt job totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0492,seed_01933,lowkey htisss is worts 😞,lowkey htisss is worts 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0493,seed_01936,ngl this is annoyingggg 💔,ngl this is annoyingggg ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0494,seed_01939,yeahhhh sure 😂 totally helpful,yeahhhh sure totally helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0495,seed_01949,wow amazign 👏 totallyyyyy helpfulll,wow amazign totallyyyyy helpfulll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0496,seed_01950,tbh this is pathetic 😒,tbh this is pathetic 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0497,seed_01951,fr thisss is bad 👎,fr thisss is bad 🔥,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0498,seed_01960,ngl thissss is treribleeeee 😭,ngl thissss is treribleeeee 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0499,seed_01967,besttttt ever 😂 totally helpfulll,besttttt ever totally helpfulll 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0500,seed_01974,besttttt everrrr 🙄 totally helpful,besttttt everrrr totally helpful 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0501,seed_01975,idk thisssss is trash 👎,idk thisssss is trash,Negative,Negative,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0502,seed_01976,ngl thisss is terrible 😠,ngl thisss is terrible ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0503,seed_01977,tbh thissss is worts 😭,tbh thissss is worts 🙂,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0504,seed_01982,lowkey this is bad 😞,lowkey this is bad 🤔,Negative,Negative,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0505,seed_01983,great job 😒 totally helpfulllll,great job totally helpfulllll 😐,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0506,seed_01993,besttttt everrrr 👏 totallyyyyy helpful,besttttt everrrr totallyyyyy helpful 🙃,Negative,Sarcastic,1,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0507,seed_01997,ngl this is trash 😒,ngl this is trash ✨,Negative,Negative,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0508,seed_01174,lol it was fine 🙂,lol it was fine,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0509,seed_01182,omg it was fieneeee 🫤,omg it was fieneeee 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0510,seed_01185,ngl it was okayyyyy 😐,ngl it was okayyyyy 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0511,seed_01186,higkhey it was okay 🫤,higkhey it was okay 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0512,seed_01191,bro it was standarddd 🫤,bro it was standarddd,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0513,seed_01201,highkeyyy it was standrad 🤷,highkeyyy it was standrad 😐,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0514,seed_01207,lowkeyyy it was regular 😐,lowkeyyy it was regular 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0515,seed_01237,highkey it was fineeeee 🙂,highkey it was fineeeee,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0516,seed_01284,fr it was regular 🫤,fr it was regular 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0517,seed_01341,idk it was averageeeee 🤷,idk it was averageeeee 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0518,seed_01350,bro it was fineeee 🤷,bro it was fineeee,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0519,seed_01363,bro it was averaeg 🤷,bro it was averaeg 😐,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0520,seed_01387,lowkeyyy it was averageee 🤷,lowkeyyy it was averageee 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0521,seed_01421,fr it was reuglar 🫤,fr it was reuglar,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0522,seed_01425,higheky it was regular 🙂,higheky it was regular 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0523,seed_01444,ngl it was avergaeee 😐,ngl it was avergaeee 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0524,seed_01482,bro it was normalllll 🫤,bro it was normalllll,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0525,seed_01531,bro it was regular 🙂,bro it was regular 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0526,seed_01544,lwokey it was normalllll 😐,lwokey it was normalllll 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0527,seed_01558,bro it was standarddddd 😐,bro it was standarddddd,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0528,seed_01579,omg it was standrad 🤷,omg it was standrad 😐,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0529,seed_01616,bro it was normal 🫤,bro it was normal 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0530,seed_01620,tbh it was okayyy 🫤,tbh it was okayyy,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0531,seed_01622,lol it was standard 🤷,lol it was standard 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0532,seed_01645,lol it was standarddddd 🫤,lol it was standarddddd 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0533,seed_01659,bro it was average 🙂,bro it was average,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0534,seed_01684,bro it was regulra 🙂,bro it was regulra 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0535,seed_01697,highkye it was average 🤷,highkye it was average 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0536,seed_01710,omg it was standard 🤷,omg it was standard,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0537,seed_01719,lol it was averageeeee 😐,lol it was averageeeee 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0538,seed_01727,lokweyyy it was fineee 😐,lokweyyy it was fineee 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0539,seed_01761,lowkeyyyy it was normal 🙂,lowkeyyyy it was normal,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0540,seed_01789,tbh it was standard 🫤,tbh it was standard 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0541,seed_01812,highkeyyy it was rgeular 😐,highkeyyy it was rgeular 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0542,seed_01825,highkeyyy it was okayyyyy 🫤,highkeyyy it was okayyyyy,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0543,seed_01830,hihgkeyyyy it was nomral 🫤,hihgkeyyyy it was nomral 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0544,seed_01831,bro it was stnadard 🤷,bro it was stnadard 😭,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0545,seed_01849,highkeyyy it was averageeee 🫤,highkeyyy it was averageeee,Neutral,Neutral,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0546,seed_01851,fr it was standard 🤷,fr it was standard 🤔,Neutral,Neutral,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0547,seed_01880,lol it was average 😐,lol it was average 🔥,Neutral,Neutral,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0548,seed_01339,lol thissss is perfect 🤩,lol thissss is perfect,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0549,seed_01346,tbh this is awesoem 🔥,tbh this is awesoem 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0550,seed_01348,ngl this is amazign 😁,ngl this is amazign 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0551,seed_01365,fr thisss is perfect 🔥,fr thisss is perfect 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0552,seed_01368,lol this is soliddddd ✨,lol this is soliddddd,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0553,seed_01402,idk thisss is amazing 🔥,idk thisss is amazing 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0554,seed_01404,bro thisssss is awesomeeeee 😄,bro thisssss is awesomeeeee 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0555,seed_01408,idk thisss is soliddd 😁,idk thisss is soliddd 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0556,seed_01417,fr this is amaznig ❤️,fr this is amaznig,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0557,seed_01441,bro this is fantastic 🤩,bro this is fantastic 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0558,seed_01443,bro this is soliddddd 😄,bro this is soliddddd 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0559,seed_01453,idk thisssss is awesome 😄,idk thisssss is awesome 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0560,seed_01455,fr this is sloid 🤩,fr this is sloid,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0561,seed_01488,lowkey this is awesomeee 😍,lowkey this is awesomeee 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0562,seed_01492,tbh this is solid 🥳,tbh this is solid 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0563,seed_01513,idk this is great 😍,idk this is great 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0564,seed_01522,tbh thisss is prefect 😄,tbh thisss is prefect,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0565,seed_01529,highkey thisssss is awesoem 😍,highkey thisssss is awesoem 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0566,seed_01530,lowekyyyy thsisss is solid 🔥,lowekyyyy thsisss is solid 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0567,seed_01535,hihgkey this is greattt 🔥,hihgkey this is greattt 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0568,seed_01539,fr this is perfecttt 🔥,fr this is perfecttt,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0569,seed_01542,omg thisss is amazinggg 😁,omg thisss is amazinggg 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0570,seed_01552,omg this is perfcet 😄,omg this is perfcet 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0571,seed_01557,bro thisssss is graet 🔥,bro thisssss is graet 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0572,seed_01569,tbh this is perfect ✨,tbh this is perfect,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0573,seed_01584,tbh this is solid 🤩,tbh this is solid 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0574,seed_01586,lowkey this is lit ✨,lowkey this is lit 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0575,seed_01592,idk this is fantastic ❤️,idk this is fantastic 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0576,seed_01618,highkey this is greattttt 🔥,highkey this is greattttt,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0577,seed_01634,lowkeyyyyy this is soldi 😄,lowkeyyyyy this is soldi 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0578,seed_01649,omg thisssss is solid 😍,omg thisssss is solid 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0579,seed_01652,lowkeyyyy this is great 🔥,lowkeyyyy this is great 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0580,seed_01662,omg this is perfect 😍,omg this is perfect,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0581,seed_01687,idk this is perfect 🔥,idk this is perfect 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0582,seed_01730,fr thissss is lit ❤️,fr thissss is lit 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0583,seed_01732,ngl this is amazign 😍,ngl this is amazign 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0584,seed_01734,highkey thisss is amzaing 🤩,highkey thisss is amzaing,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0585,seed_01755,lol this is amazinggg 😄,lol this is amazinggg 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0586,seed_01756,idk thisssss is solid 😄,idk thisssss is solid 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0587,seed_01769,bro this is awesome 🥳,bro this is awesome 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0588,seed_01795,lowkey thissss is great 🤩,lowkey thissss is great,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0589,seed_01797,tbh thissss is fantasticcc 🤩,tbh thissss is fantasticcc 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0590,seed_01827,tbh this is fantastic 😍,tbh this is fantastic 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0591,seed_01855,fr thisssss is awesomeeeee 🥳,fr thisssss is awesomeeeee 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0592,seed_01883,bro this is fantasticcccc 😍,bro this is fantasticcccc,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0593,seed_01894,ngl thissss is solid 😍,ngl thissss is solid 🤔,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0594,seed_01952,fr thisssss is fantasticccc 😁,fr thisssss is fantasticccc 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0595,seed_01954,bro thisssss is aamzing ✨,bro thisssss is aamzing 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0596,seed_01955,lol this is great ❤️,lol this is great,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.
+stress_0597,seed_01962,idk this is amzaing ❤️,idk this is amzaing 😐,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0598,seed_01970,ngl this is awesome 🔥,ngl this is awesome 😭,Positive,Positive,0,contradictory_swap,Used an opposing emoji while keeping the original text label unchanged.
+stress_0599,seed_01985,omg thissss is perfecttt ❤️,omg thissss is perfecttt 🙃,Positive,Positive,0,ambiguous_swap,Replaced class-coded emoji with a shared or ambiguous emoji.
+stress_0600,seed_01991,ngl this is gerattttt 😁,ngl this is gerattttt,Positive,Positive,0,emoji_removed,Removed class-coded emoji so polarity must come from text.

@@ -1,0 +1,105 @@
+{
+  "dataset_name": "social_media_sentiment_dataset_v4",
+  "seed_file": "social_media_sentiment_test.csv",
+  "generation_seed_csv": "datasets\\real_generation_seed.csv",
+  "real_holdout_csv": "datasets\\real_holdout.csv",
+  "output_csv": "datasets\\social_media_sentiment_dataset_v4.csv",
+  "random_seed": 42,
+  "holdout_fraction": 0.3,
+  "target_total_rows": 24000,
+  "class_targets": {
+    "Positive": 8000,
+    "Neutral": 8000,
+    "Negative": 8000
+  },
+  "label_policy": {
+    "main_labels": [
+      "Negative",
+      "Neutral",
+      "Positive"
+    ],
+    "sarcastic_mapping": {
+      "seed_label": "Sarcastic",
+      "mapped_sentiment": "Negative",
+      "sarcasm_flag": 1,
+      "reason": "Sarcastic rows are kept in the three-class sentiment scheme by assigning the underlying negative intent to the main label while preserving sarcasm as metadata."
+    }
+  },
+  "real_seed_partition": {
+    "total_seed_rows": 2000,
+    "generation_seed_rows": 1400,
+    "holdout_rows": 600,
+    "by_original_label": {
+      "Neutral": {
+        "generation_seed": 281,
+        "holdout": 121,
+        "total": 402
+      },
+      "Positive": {
+        "generation_seed": 375,
+        "holdout": 160,
+        "total": 535
+      },
+      "Negative": {
+        "generation_seed": 380,
+        "holdout": 163,
+        "total": 543
+      },
+      "Sarcastic": {
+        "generation_seed": 364,
+        "holdout": 156,
+        "total": 520
+      }
+    },
+    "holdout_usage_rule": "Holdout parent rows are excluded from training data generation. Neither the original holdout rows nor their derived variants appear in the main hybrid dataset."
+  },
+  "generation_signal_reasoning": {
+    "real_observation": "Untouched rows from the real social-media seed set. These rows anchor the dataset in observed slang, emoji use, and sentiment patterns.",
+    "lexical_swap": "Keeps the sentiment class fixed while swapping to another real seed descriptor from the same polarity family, reducing dependence on one exact wording.",
+    "orthographic_noise": "Injects repeated letters and small typos because the real seed data uses noisy spellings typical of short social posts.",
+    "mixed_resolution": "Creates harder examples where early text is mild or ambiguous but the final clause resolves the sentiment, closer to how people post quick updates online.",
+    "hedged_neutral": "Builds low-affect neutral rows with hedges such as 'just' and 'kinda' so neutral is not merely a weak version of positive.",
+    "balanced_neutral": "Creates explicitly mixed low-intensity sentiment such as 'not bad not great', which is realistic for neutral reactions.",
+    "shared_emoji_overlap": "Uses emojis that commonly appear across positive, neutral, and negative online posts so the emoji alone does not reveal the label.",
+    "short_phrase_overlap": "Reuses overlapping short social-media phrase families across classes, forcing the model to look beyond one lexical shell.",
+    "contradictory_emoji": "Pairs sentiment-bearing text with ambiguous or opposing emojis so polarity cannot be solved by emoji choice alone.",
+    "sarcasm_negative": "Uses positive surface phrases with dismissive emoji and negative pragmatic meaning. The dataset keeps the main label as Negative and tracks sarcasm separately."
+  },
+  "class_counts": {
+    "Neutral": 8000,
+    "Positive": 8000,
+    "Negative": 8000
+  },
+  "source_type_counts": {
+    "real_seed": 1400,
+    "controlled_augmentation": 22600
+  },
+  "generation_signal_counts": {
+    "real_observation": 1400,
+    "shared_emoji_overlap": 5147,
+    "orthographic_noise": 4271,
+    "lexical_swap": 2264,
+    "mixed_resolution": 1533,
+    "contradictory_emoji": 4712,
+    "short_phrase_overlap": 2548,
+    "hedged_neutral": 624,
+    "balanced_neutral": 342,
+    "sarcasm_negative": 1159
+  },
+  "real_partition_counts": {
+    "generation_seed": 1400,
+    "holdout": 600
+  },
+  "holdout_comment_overlap_with_training_dataset": 0,
+  "sarcasm_breakdown": {
+    "negative_sarcastic_rows": 2500,
+    "negative_plain_rows": 5500
+  },
+  "split_counts": {
+    "test": 3364,
+    "train": 16800,
+    "validation": 3836
+  },
+  "hard_case_rows": 18373,
+  "unique_comments": 24000
+}
