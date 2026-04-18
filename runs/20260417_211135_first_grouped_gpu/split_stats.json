@@ -1,0 +1,12 @@
+{
+  "strategy": "grouped",
+  "train_rows": 58270,
+  "val_rows": 18945,
+  "test_rows": 19050,
+  "train_templates": 312,
+  "val_templates": 104,
+  "test_templates": 104,
+  "template_overlap_train_val": 0,
+  "template_overlap_train_test": 0,
+  "template_overlap_val_test": 0
+}

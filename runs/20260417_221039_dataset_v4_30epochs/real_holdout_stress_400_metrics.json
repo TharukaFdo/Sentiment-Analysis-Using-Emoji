@@ -1,0 +1,164 @@
+{
+  "stress_parts": [
+    "datasets\\real_holdout_stress_200.csv",
+    "datasets\\real_holdout_stress_200_part2.csv"
+  ],
+  "figure_path": "runs\\20260417_221039_dataset_v4_30epochs\\real_holdout_stress_400_comparison.png",
+  "split_stats": {
+    "strategy": "grouped",
+    "group_column": "phrase_key",
+    "train_rows": 15609,
+    "val_rows": 3642,
+    "test_rows": 4749,
+    "train_templates": 3009,
+    "val_templates": 1003,
+    "test_templates": 1004,
+    "template_overlap_train_val": 0,
+    "template_overlap_train_test": 0,
+    "template_overlap_val_test": 0
+  },
+  "rows": 400,
+  "label_counts": {
+    "Negative": 212,
+    "Positive": 107,
+    "Neutral": 81
+  },
+  "stress_type_counts": {
+    "ambiguous_swap": 218,
+    "contradictory_swap": 114,
+    "emoji_removed": 68
+  },
+  "results": {
+    "text": {
+      "loss": 0.11937356367707253,
+      "accuracy": 0.9575,
+      "f1_weighted": 0.9580448192332015,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9899497487437185,
+          "recall": 0.9292452830188679,
+          "f1-score": 0.9586374695863747,
+          "support": 212.0
+        },
+        "Neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 81.0
+        },
+        "Positive": {
+          "precision": 0.875,
+          "recall": 0.9813084112149533,
+          "f1-score": 0.9251101321585903,
+          "support": 107.0
+        },
+        "accuracy": 0.9575,
+        "macro avg": {
+          "precision": 0.9549832495812396,
+          "recall": 0.9701845647446069,
+          "f1-score": 0.961249200581655,
+          "support": 400.0
+        },
+        "weighted avg": {
+          "precision": 0.9612358668341707,
+          "recall": 0.9575,
+          "f1-score": 0.9580448192332015,
+          "support": 400.0
+        }
+      }
+    },
+    "emoji": {
+      "loss": 1.4542610049247742,
+      "accuracy": 0.1525,
+      "f1_weighted": 0.15845201612903229,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.24489795918367346,
+          "recall": 0.11320754716981132,
+          "f1-score": 0.15483870967741936,
+          "support": 212.0
+        },
+        "Neutral": {
+          "precision": 0.05917159763313609,
+          "recall": 0.12345679012345678,
+          "f1-score": 0.08,
+          "support": 81.0
+        },
+        "Positive": {
+          "precision": 0.20300751879699247,
+          "recall": 0.2523364485981308,
+          "f1-score": 0.225,
+          "support": 107.0
+        },
+        "accuracy": 0.1525,
+        "macro avg": {
+          "precision": 0.16902569187126737,
+          "recall": 0.16300026196379966,
+          "f1-score": 0.15327956989247313,
+          "support": 400.0
+        },
+        "weighted avg": {
+          "precision": 0.19608267816625247,
+          "recall": 0.1525,
+          "f1-score": 0.15845201612903229,
+          "support": 400.0
+        }
+      }
+    },
+    "combined": {
+      "loss": 0.22848764806985855,
+      "accuracy": 0.935,
+      "f1_weighted": 0.9355893803449534,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9898477157360406,
+          "recall": 0.9198113207547169,
+          "f1-score": 0.9535452322738386,
+          "support": 212.0
+        },
+        "Neutral": {
+          "precision": 0.9101123595505618,
+          "recall": 1.0,
+          "f1-score": 0.9529411764705882,
+          "support": 81.0
+        },
+        "Positive": {
+          "precision": 0.8596491228070176,
+          "recall": 0.9158878504672897,
+          "f1-score": 0.8868778280542986,
+          "support": 107.0
+        },
+        "accuracy": 0.935,
+        "macro avg": {
+          "precision": 0.9198697326978733,
+          "recall": 0.9452330570740023,
+          "f1-score": 0.9311214122662418,
+          "support": 400.0
+        },
+        "weighted avg": {
+          "precision": 0.9388731824999675,
+          "recall": 0.935,
+          "f1-score": 0.9355893803449534,
+          "support": 400.0
+        }
+      }
+    }
+  },
+  "emoji_confusion_matrix": [
+    [
+      24,
+      131,
+      57
+    ],
+    [
+      22,
+      10,
+      49
+    ],
+    [
+      52,
+      28,
+      27
+    ]
+  ]
+}

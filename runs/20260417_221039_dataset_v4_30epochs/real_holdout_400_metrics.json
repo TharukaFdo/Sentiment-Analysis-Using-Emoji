@@ -1,0 +1,166 @@
+{
+  "subset_csv": "datasets\\real_holdout_400.csv",
+  "figure_path": "runs\\20260417_221039_dataset_v4_30epochs\\real_holdout_400_comparison.png",
+  "split_stats": {
+    "strategy": "grouped",
+    "group_column": "phrase_key",
+    "train_rows": 15609,
+    "val_rows": 3642,
+    "test_rows": 4749,
+    "train_templates": 3009,
+    "val_templates": 1003,
+    "test_templates": 1004,
+    "template_overlap_train_val": 0,
+    "template_overlap_train_test": 0,
+    "template_overlap_val_test": 0
+  },
+  "external_stats": {
+    "input_rows": 400,
+    "kept_rows": 400,
+    "dropped_rows": 0
+  },
+  "subset_label_counts": {
+    "Negative": 212,
+    "Positive": 107,
+    "Neutral": 81
+  },
+  "subset_original_label_counts": {
+    "Negative": 120,
+    "Positive": 107,
+    "Sarcastic": 92,
+    "Neutral": 81
+  },
+  "results": {
+    "text": {
+      "loss": 0.12514929845929146,
+      "accuracy": 0.95,
+      "f1_weighted": 0.9507587382779198,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9897959183673469,
+          "recall": 0.9150943396226415,
+          "f1-score": 0.9509803921568627,
+          "support": 212.0
+        },
+        "Neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 81.0
+        },
+        "Positive": {
+          "precision": 0.8536585365853658,
+          "recall": 0.9813084112149533,
+          "f1-score": 0.9130434782608695,
+          "support": 107.0
+        },
+        "accuracy": 0.95,
+        "macro avg": {
+          "precision": 0.9478181516509042,
+          "recall": 0.9654675836125316,
+          "f1-score": 0.9546746234725774,
+          "support": 400.0
+        },
+        "weighted avg": {
+          "precision": 0.9554454952712794,
+          "recall": 0.95,
+          "f1-score": 0.9507587382779198,
+          "support": 400.0
+        }
+      }
+    },
+    "emoji": {
+      "loss": 0.3369125425815582,
+      "accuracy": 1.0,
+      "f1_weighted": 1.0,
+      "classification_report": {
+        "Negative": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 212.0
+        },
+        "Neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 81.0
+        },
+        "Positive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 107.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 400.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 400.0
+        }
+      }
+    },
+    "combined": {
+      "loss": 0.06909555941820145,
+      "accuracy": 1.0,
+      "f1_weighted": 1.0,
+      "classification_report": {
+        "Negative": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 212.0
+        },
+        "Neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 81.0
+        },
+        "Positive": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 107.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 400.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 400.0
+        }
+      }
+    }
+  },
+  "emoji_confusion_matrix": [
+    [
+      212,
+      0,
+      0
+    ],
+    [
+      0,
+      81,
+      0
+    ],
+    [
+      0,
+      0,
+      107
+    ]
+  ]
+}

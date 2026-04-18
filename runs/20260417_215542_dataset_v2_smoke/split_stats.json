@@ -1,0 +1,13 @@
+{
+  "strategy": "grouped",
+  "group_column": "phrase_key",
+  "train_rows": 12943,
+  "val_rows": 4944,
+  "test_rows": 6113,
+  "train_templates": 2676,
+  "val_templates": 893,
+  "test_templates": 893,
+  "template_overlap_train_val": 0,
+  "template_overlap_train_test": 0,
+  "template_overlap_val_test": 0
+}

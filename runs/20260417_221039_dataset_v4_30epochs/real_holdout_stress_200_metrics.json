@@ -1,0 +1,165 @@
+{
+  "stress_csv": "datasets\\real_holdout_stress_200.csv",
+  "figure_path": "runs\\20260417_221039_dataset_v4_30epochs\\real_holdout_stress_200_comparison.png",
+  "split_stats": {
+    "strategy": "grouped",
+    "group_column": "phrase_key",
+    "train_rows": 15609,
+    "val_rows": 3642,
+    "test_rows": 4749,
+    "train_templates": 3009,
+    "val_templates": 1003,
+    "test_templates": 1004,
+    "template_overlap_train_val": 0,
+    "template_overlap_train_test": 0,
+    "template_overlap_val_test": 0
+  },
+  "external_stats": {
+    "input_rows": 200,
+    "kept_rows": 200,
+    "dropped_rows": 0
+  },
+  "stress_type_counts": {
+    "ambiguous_swap": 92,
+    "contradictory_swap": 66,
+    "emoji_removed": 42
+  },
+  "label_counts": {
+    "Negative": 70,
+    "Neutral": 65,
+    "Positive": 65
+  },
+  "results": {
+    "text": {
+      "loss": 0.10343089699745178,
+      "accuracy": 0.97,
+      "f1_weighted": 0.9700065847234417,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.9848484848484849,
+          "recall": 0.9285714285714286,
+          "f1-score": 0.9558823529411765,
+          "support": 70.0
+        },
+        "Neutral": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 65.0
+        },
+        "Positive": {
+          "precision": 0.927536231884058,
+          "recall": 0.9846153846153847,
+          "f1-score": 0.9552238805970149,
+          "support": 65.0
+        },
+        "accuracy": 0.97,
+        "macro avg": {
+          "precision": 0.9707949055775144,
+          "recall": 0.9710622710622712,
+          "f1-score": 0.9703687445127306,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.9711462450592885,
+          "recall": 0.97,
+          "f1-score": 0.9700065847234417,
+          "support": 200.0
+        }
+      }
+    },
+    "emoji": {
+      "loss": 1.3880205154418945,
+      "accuracy": 0.15,
+      "f1_weighted": 0.14764869970963773,
+      "classification_report": {
+        "Negative": {
+          "precision": 0.12280701754385964,
+          "recall": 0.1,
+          "f1-score": 0.11023622047244094,
+          "support": 70.0
+        },
+        "Neutral": {
+          "precision": 0.1,
+          "recall": 0.1076923076923077,
+          "f1-score": 0.1037037037037037,
+          "support": 65.0
+        },
+        "Positive": {
+          "precision": 0.2191780821917808,
+          "recall": 0.24615384615384617,
+          "f1-score": 0.2318840579710145,
+          "support": 65.0
+        },
+        "accuracy": 0.15,
+        "macro avg": {
+          "precision": 0.14732836657854684,
+          "recall": 0.1512820512820513,
+          "f1-score": 0.14860799404905303,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.14671533285267965,
+          "recall": 0.15,
+          "f1-score": 0.14764869970963773,
+          "support": 200.0
+        }
+      }
+    },
+    "combined": {
+      "loss": 0.1766066700220108,
+      "accuracy": 0.955,
+      "f1_weighted": 0.955,
+      "classification_report": {
+        "Negative": {
+          "precision": 1.0,
+          "recall": 0.9285714285714286,
+          "f1-score": 0.9629629629629629,
+          "support": 70.0
+        },
+        "Neutral": {
+          "precision": 0.9285714285714286,
+          "recall": 1.0,
+          "f1-score": 0.9629629629629629,
+          "support": 65.0
+        },
+        "Positive": {
+          "precision": 0.9384615384615385,
+          "recall": 0.9384615384615385,
+          "f1-score": 0.9384615384615385,
+          "support": 65.0
+        },
+        "accuracy": 0.955,
+        "macro avg": {
+          "precision": 0.9556776556776557,
+          "recall": 0.9556776556776557,
+          "f1-score": 0.9547958214624881,
+          "support": 200.0
+        },
+        "weighted avg": {
+          "precision": 0.9567857142857144,
+          "recall": 0.955,
+          "f1-score": 0.955,
+          "support": 200.0
+        }
+      }
+    }
+  },
+  "emoji_confusion_matrix": [
+    [
+      7,
+      46,
+      17
+    ],
+    [
+      18,
+      7,
+      40
+    ],
+    [
+      32,
+      17,
+      16
+    ]
+  ]
+}
